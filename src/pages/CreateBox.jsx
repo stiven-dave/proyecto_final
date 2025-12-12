@@ -6,13 +6,13 @@ const BOX_CONTENTS = {
     { id: 1, type: 'Mascarilla', name: 'Mascarilla Hidratante', price: 12000, colorClass: 'card-blue', image: '/images/mascarilla.png' },
     { id: 2, type: 'Bálsamo', name: 'Bálsamo Labial Soft', price: 8000, colorClass: 'card-pink', image: '/images/balsamo.png' },
     { id: 3, type: 'Body Mist', name: 'Body Mist Sweet Love', price: 15000, colorClass: 'card-red', image: '/images/bodymist.png' },
-    { id: 4, type: 'Crema', name: 'Crema Corporal Romantic Glow', price: 15000, colorClass: 'card-purple', image: '/images/crema.png' },
+    { id: 4, type: 'Crema', name: 'Crema Corporal Romantic Glow', price: 15000, colorClass: 'card-purple', image: '/images/crema.png' }
   ],
   'Nube Fresh': [
     { id: 5, type: 'Iluminador', name: 'Iluminador Líquido Gold', price: 10000, colorClass: 'card-blue', image: '/images/iluminador.png' },
     { id: 6, type: 'Gloss', name: 'Lip Gloss Shine', price: 15000, colorClass: 'card-pink', image: '/images/gloss.png' },
     { id: 7, type: 'Facial Mist', name: 'Facial Mist Fresh Boost', price: 5000, colorClass: 'card-green', image: '/images/facialmist.png' },
-    { id: 8, type: 'Gel', name: 'Gel Facial Refrescante', price: 18000, colorClass: 'card-teal', image: '/images/gelfacial.png' },
+    { id: 8, type: 'Gel', name: 'Gel Facial Refrescante', price: 18000, colorClass: 'card-teal', image: '/images/gelfacial.png' }
   ],
   'Nube Glam': [
     { id: 9, type: 'Paleta', name: 'Paleta Sombras Nude', price: 20000, colorClass: 'card-blue', image: '/images/paleta.png' },
@@ -23,7 +23,7 @@ const BOX_CONTENTS = {
   'Nube Color': [
     { id: 13, type: 'Sombras', name: 'Sombras Vibrantes', price: 10000, colorClass: 'card-blue', image: '/images/paleta.png' },
     { id: 14, type: 'Labial', name: 'Labial Intenso', price: 8000, colorClass: 'card-pink', image: '/images/gloss.png' },
-     { id: 15, type: 'Rubor', name: 'Rubor Color Pop', price: 9000, colorClass: 'card-orange', image: '/images/rubor.png' },
+     { id: 15, type: 'Rubor', name: 'Rubor Color Pop', price: 9000, colorClass: 'card-orange', image: '/images/rubor.png' }
   ],
 
   'Nube Suave': [
