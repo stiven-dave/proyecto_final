@@ -24,6 +24,15 @@ const BOX_CONTENTS = {
 { id: 10, type: 'Crema Hidratante', name: 'Hidratante Ligera', price: 15000, colorClass: 'card-pink', image: '/images/crema.png' },
 { id: 11, type: 'Protector Solar', name: 'Bloqueador Diario', price: 18000, colorClass: 'card-blue', image: '/images/bloqueador.png' },
 { id: 12, type: 'Bálsamo Labial', name: 'Bálsamo Natural', price: 7000, colorClass: 'card-pink', image: '/images/balsamo.png' }
+],
+
+'Nube Glow': [
+{ id: 13, type: 'Serum', name: 'Serum Iluminador Soft Glow', price: 28000, colorClass: 'card-blue', image: '/images/serum_glow.png' },
+{ id: 14, type: 'Iluminador', name: 'Iluminador en Barra Lumi', price: 20000, colorClass: 'card-pink', image: '/images/iluminador_barra.png' },
+{ id: 15, type: 'Crema', name: 'Crema Glow Hidratante', price: 18000, colorClass: 'card-blue', image: '/images/crema_glow.png' },
+{ id: 16, type: 'Tónico', name: 'Tónico Suavizante', price: 15000, colorClass: 'card-pink', image: '/images/tonico.png' },
+{ id: 17, type: 'Gloss', name: 'Gloss Glow Transparente', price: 14000, colorClass: 'card-blue', image: '/images/gloss_glow.png' },
+{ id: 18, type: 'Mascarilla', name: 'Mascarilla Iluminadora Skin Radiance', price: 16000, colorClass: 'card-pink', image: '/images/mascarilla_glow.png' }
 ]
 
 };
