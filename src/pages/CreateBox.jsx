@@ -33,6 +33,18 @@ const BOX_CONTENTS = {
 { id: 16, type: 'Tónico', name: 'Tónico Suavizante', price: 15000, colorClass: 'card-pink', image: '/images/tonico.png' },
 { id: 17, type: 'Gloss', name: 'Gloss Glow Transparente', price: 14000, colorClass: 'card-blue', image: '/images/gloss_glow.png' },
 { id: 18, type: 'Mascarilla', name: 'Mascarilla Iluminadora Skin Radiance', price: 16000, colorClass: 'card-pink', image: '/images/mascarilla_glow.png' }
+],
+
+'Nube Deluxe': [
+{ id: 19, type: 'Serum Premium', name: 'Serum Rejuvenecedor Platinum', price: 42000, colorClass: 'card-blue', image: '/images/serum_premium.png' },
+{ id: 20, type: 'Paleta', name: 'Paleta Glam Pro Trends', price: 55000, colorClass: 'card-pink', image: '/images/paleta_deluxe.png' },
+{ id: 21, type: 'Crema', name: 'Crema Anti-Edad Supreme', price: 38000, colorClass: 'card-blue', image: '/images/crema_deluxe.png' },
+{ id: 22, type: 'Accesorio', name: 'Brocha Profesional SoftBlend', price: 25000, colorClass: 'card-pink', image: '/images/brocha.png' },
+{ id: 23, type: 'Accesorio', name: 'Risk Roller Facial', price: 30000, colorClass: 'card-blue', image: '/images/roller.png' },
+{ id: 24, type: 'Mascarilla', name: 'Mascarilla Repair Gold', price: 20000, colorClass: 'card-pink', image: '/images/mascarilla_gold.png' },
+{ id: 25, type: 'Labial', name: 'Labial Matte Luxe', price: 22000, colorClass: 'card-blue', image: '/images/labial_luxe.png' },
+{ id: 26, type: 'Muestra', name: 'Mini Serum Sorpresa', price: 0, colorClass: 'card-pink', image: '/images/muestra1.png' },
+{ id: 27, type: 'Muestra', name: 'Mini Crema Sorpresa', price: 0, colorClass: 'card-blue', image: '/images/muestra2.png' }
 ]
 
 };
