@@ -4,47 +4,54 @@ import { Link } from 'react-router-dom';
 const BOX_CONTENTS = {
   'Nube Love': [
     { id: 1, type: 'Mascarilla', name: 'Mascarilla Hidratante', price: 12000, colorClass: 'card-blue', image: '/images/mascarilla.png' },
-    { id: 2, type: 'Bálsamo', name: 'Bálsamo Labial Soft', price: 8000, colorClass: 'card-pink', image: '/images/balsamo.png' }
+    { id: 2, type: 'Bálsamo', name: 'Bálsamo Labial Soft', price: 8000, colorClass: 'card-pink', image: '/images/balsamo.png' },
+    { id: 3, type: 'Body Mist', name: 'Body Mist Sweet Love', price: 15000, colorClass: 'card-red', image: '/images/bodymist.png' },
+    { id: 4, type: 'Crema', name: 'Crema Corporal Romantic Glow', price: 15000, colorClass: 'card-purple', image: '/images/crema.png' },
   ],
   'Nube Fresh': [
-    { id: 3, type: 'Iluminador', name: 'Iluminador Líquido Gold', price: 25000, colorClass: 'card-blue', image: '/images/iluminador.png' },
-    { id: 4, type: 'Gloss', name: 'Lip Gloss Shine', price: 15000, colorClass: 'card-pink', image: '/images/gloss.png' }
+    { id: 5, type: 'Iluminador', name: 'Iluminador Líquido Gold', price: 10000, colorClass: 'card-blue', image: '/images/iluminador.png' },
+    { id: 6, type: 'Gloss', name: 'Lip Gloss Shine', price: 15000, colorClass: 'card-pink', image: '/images/gloss.png' },
+    { id: 7, type: 'Facial Mist', name: 'Facial Mist Fresh Boost', price: 5000, colorClass: 'card-green', image: '/images/facialmist.png' },
+    { id: 8, type: 'Gel', name: 'Gel Facial Refrescante', price: 18000, colorClass: 'card-teal', image: '/images/gelfacial.png' },
   ],
   'Nube Glam': [
-    { id: 5, type: 'Paleta', name: 'Paleta Sombras Nude', price: 45000, colorClass: 'card-blue', image: '/images/paleta.png' },
-    { id: 6, type: 'Serum', name: 'Serum Facial Glow', price: 35000, colorClass: 'card-pink', image: '/images/serum.png' }
+    { id: 9, type: 'Paleta', name: 'Paleta Sombras Nude', price: 20000, colorClass: 'card-blue', image: '/images/paleta.png' },
+    { id: 10, type: 'Serum', name: 'Serum Facial Glow', price: 15000, colorClass: 'card-pink', image: '/images/serum.png' },
+    { id: 11, type: 'Delineador', name: 'Delineador Glam Black', price: 9000, colorClass: 'card-purple', image: '/images/delineador.png' },
+    { id: 12, type: 'Mini Labial', name: 'Mini Lipstick Glam Touch', price: 7000, colorClass: 'card-red', image: '/images/minilabial.png' },
   ],
   'Nube Color': [
-    { id: 7, type: 'Sombras', name: 'Sombras Vibrantes', price: 38000, colorClass: 'card-blue', image: '/images/paleta.png' },
-    { id: 8, type: 'Labial', name: 'Labial Intenso', price: 22000, colorClass: 'card-pink', image: '/images/gloss.png' }
+    { id: 13, type: 'Sombras', name: 'Sombras Vibrantes', price: 10000, colorClass: 'card-blue', image: '/images/paleta.png' },
+    { id: 14, type: 'Labial', name: 'Labial Intenso', price: 8000, colorClass: 'card-pink', image: '/images/gloss.png' },
+     { id: 15, type: 'Rubor', name: 'Rubor Color Pop', price: 9000, colorClass: 'card-orange', image: '/images/rubor.png' },
   ],
 
   'Nube Suave': [
-{ id: 9, type: 'Gel de Limpieza', name: 'Gel Facial Suave', price: 10000, colorClass: 'card-blue', image: '/images/gel.png' },
-{ id: 10, type: 'Crema Hidratante', name: 'Hidratante Ligera', price: 15000, colorClass: 'card-pink', image: '/images/crema.png' },
-{ id: 11, type: 'Protector Solar', name: 'Bloqueador Diario', price: 18000, colorClass: 'card-blue', image: '/images/bloqueador.png' },
-{ id: 12, type: 'Bálsamo Labial', name: 'Bálsamo Natural', price: 7000, colorClass: 'card-pink', image: '/images/balsamo.png' }
+{ id: 16, type: 'Gel de Limpieza', name: 'Gel Facial Suave', price: 10000, colorClass: 'card-blue', image: '/images/gel.png' },
+{ id: 17, type: 'Crema Hidratante', name: 'Hidratante Ligera', price: 15000, colorClass: 'card-pink', image: '/images/crema.png' },
+{ id: 18, type: 'Protector Solar', name: 'Bloqueador Diario', price: 18000, colorClass: 'card-blue', image: '/images/bloqueador.png' },
+{ id: 19, type: 'Bálsamo Labial', name: 'Bálsamo Natural', price: 7000, colorClass: 'card-pink', image: '/images/balsamo.png' }
 ],
 
 'Nube Glow': [
-{ id: 13, type: 'Serum', name: 'Serum Iluminador Soft Glow', price: 28000, colorClass: 'card-blue', image: '/images/serum_glow.png' },
-{ id: 14, type: 'Iluminador', name: 'Iluminador en Barra Lumi', price: 20000, colorClass: 'card-pink', image: '/images/iluminador_barra.png' },
-{ id: 15, type: 'Crema', name: 'Crema Glow Hidratante', price: 18000, colorClass: 'card-blue', image: '/images/crema_glow.png' },
-{ id: 16, type: 'Tónico', name: 'Tónico Suavizante', price: 15000, colorClass: 'card-pink', image: '/images/tonico.png' },
-{ id: 17, type: 'Gloss', name: 'Gloss Glow Transparente', price: 14000, colorClass: 'card-blue', image: '/images/gloss_glow.png' },
-{ id: 18, type: 'Mascarilla', name: 'Mascarilla Iluminadora Skin Radiance', price: 16000, colorClass: 'card-pink', image: '/images/mascarilla_glow.png' }
+{ id: 20, type: 'Serum', name: 'Serum Iluminador Soft Glow', price: 28000, colorClass: 'card-blue', image: '/images/serum_glow.png' },
+{ id: 21, type: 'Iluminador', name: 'Iluminador en Barra Lumi', price: 20000, colorClass: 'card-pink', image: '/images/iluminador_barra.png' },
+{ id: 22, type: 'Crema', name: 'Crema Glow Hidratante', price: 18000, colorClass: 'card-blue', image: '/images/crema_glow.png' },
+{ id: 23, type: 'Tónico', name: 'Tónico Suavizante', price: 15000, colorClass: 'card-pink', image: '/images/tonico.png' },
+{ id: 24, type: 'Gloss', name: 'Gloss Glow Transparente', price: 14000, colorClass: 'card-blue', image: '/images/gloss_glow.png' },
+{ id: 25, type: 'Mascarilla', name: 'Mascarilla Iluminadora Skin Radiance', price: 16000, colorClass: 'card-pink', image: '/images/mascarilla_glow.png' }
 ],
 
 'Nube Deluxe': [
-{ id: 19, type: 'Serum Premium', name: 'Serum Rejuvenecedor Platinum', price: 42000, colorClass: 'card-blue', image: '/images/serum_premium.png' },
-{ id: 20, type: 'Paleta', name: 'Paleta Glam Pro Trends', price: 55000, colorClass: 'card-pink', image: '/images/paleta_deluxe.png' },
-{ id: 21, type: 'Crema', name: 'Crema Anti-Edad Supreme', price: 38000, colorClass: 'card-blue', image: '/images/crema_deluxe.png' },
-{ id: 22, type: 'Accesorio', name: 'Brocha Profesional SoftBlend', price: 25000, colorClass: 'card-pink', image: '/images/brocha.png' },
-{ id: 23, type: 'Accesorio', name: 'Risk Roller Facial', price: 30000, colorClass: 'card-blue', image: '/images/roller.png' },
-{ id: 24, type: 'Mascarilla', name: 'Mascarilla Repair Gold', price: 20000, colorClass: 'card-pink', image: '/images/mascarilla_gold.png' },
-{ id: 25, type: 'Labial', name: 'Labial Matte Luxe', price: 22000, colorClass: 'card-blue', image: '/images/labial_luxe.png' },
-{ id: 26, type: 'Muestra', name: 'Mini Serum Sorpresa', price: 0, colorClass: 'card-pink', image: '/images/muestra1.png' },
-{ id: 27, type: 'Muestra', name: 'Mini Crema Sorpresa', price: 0, colorClass: 'card-blue', image: '/images/muestra2.png' }
+{ id: 26, type: 'Serum Premium', name: 'Serum Rejuvenecedor Platinum', price: 42000, colorClass: 'card-blue', image: '/images/serum_premium.png' },
+{ id: 27, type: 'Paleta', name: 'Paleta Glam Pro Trends', price: 55000, colorClass: 'card-pink', image: '/images/paleta_deluxe.png' },
+{ id: 28, type: 'Crema', name: 'Crema Anti-Edad Supreme', price: 38000, colorClass: 'card-blue', image: '/images/crema_deluxe.png' },
+{ id: 29, type: 'Accesorio', name: 'Brocha Profesional SoftBlend', price: 25000, colorClass: 'card-pink', image: '/images/brocha.png' },
+{ id: 30, type: 'Accesorio', name: 'Risk Roller Facial', price: 30000, colorClass: 'card-blue', image: '/images/roller.png' },
+{ id: 31, type: 'Mascarilla', name: 'Mascarilla Repair Gold', price: 20000, colorClass: 'card-pink', image: '/images/mascarilla_gold.png' },
+{ id: 32, type: 'Labial', name: 'Labial Matte Luxe', price: 22000, colorClass: 'card-blue', image: '/images/labial_luxe.png' },
+{ id: 33, type: 'Muestra', name: 'Mini Serum Sorpresa', price: 0, colorClass: 'card-pink', image: '/images/muestra1.png' },
+{ id: 34, type: 'Muestra', name: 'Mini Crema Sorpresa', price: 0, colorClass: 'card-blue', image: '/images/muestra2.png' }
 ]
 
 };
