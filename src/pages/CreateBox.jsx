@@ -17,7 +17,15 @@ const BOX_CONTENTS = {
   'Nube Color': [
     { id: 7, type: 'Sombras', name: 'Sombras Vibrantes', price: 38000, colorClass: 'card-blue', image: '/images/paleta.png' },
     { id: 8, type: 'Labial', name: 'Labial Intenso', price: 22000, colorClass: 'card-pink', image: '/images/gloss.png' }
-  ]
+  ],
+
+  'Nube Suave': [
+{ id: 9, type: 'Gel de Limpieza', name: 'Gel Facial Suave', price: 10000, colorClass: 'card-blue', image: '/images/gel.png' },
+{ id: 10, type: 'Crema Hidratante', name: 'Hidratante Ligera', price: 15000, colorClass: 'card-pink', image: '/images/crema.png' },
+{ id: 11, type: 'Protector Solar', name: 'Bloqueador Diario', price: 18000, colorClass: 'card-blue', image: '/images/bloqueador.png' },
+{ id: 12, type: 'Bálsamo Labial', name: 'Bálsamo Natural', price: 7000, colorClass: 'card-pink', image: '/images/balsamo.png' }
+]
+
 };
 
 const SKIN_TYPES = [
